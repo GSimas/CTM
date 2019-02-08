@@ -95,16 +95,14 @@ a:hover {
 }
 
 .btn-primary {
-  border-style: solid;
-  border-width: 1px;
-  border-color: black;
-  background: #ffffff;
+  border: none;
+  background: #000000;
   color: #ffffff;
   padding: 10px 20px;
   font-size: 18px;
 }
 .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
-  background: #000000 !important;
+  background: #003fa5 !important;
 }
 
 .js .animate-box {
