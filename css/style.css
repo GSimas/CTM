@@ -95,14 +95,17 @@ a:hover {
 }
 
 .btn-primary {
-  border: none;
-  background: #000000;
-  color: #ffffff;
+  border-width: 1px;
+  border-color: black;
+  background: #ffffff;
+  color: #000000;
   padding: 10px 20px;
-  font-size: 18px;
+  font-size: 2.5vw;
 }
 .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
-  background: #003fa5 !important;
+  background: #000000 !important;
+  color: #ffffff;
+  border-color: white;
 }
 
 .js .animate-box {
